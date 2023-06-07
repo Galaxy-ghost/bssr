@@ -66,9 +66,9 @@ public class ArticleController {
     @ResponseBody
     public String addArticle(@RequestParam("addArticleTitle")String addArticleTitle,
                              @RequestParam("addArticleContent")String addArticleContent,
-                             @RequestParam("type")String type,
+                             @RequestParam("type[]")String[] type1,
                                 HttpSession session){
-
+String type=type1[0];
         Date date=new Date();
         User user= (User) session.getAttribute("rs_user");
         if (user==null){
