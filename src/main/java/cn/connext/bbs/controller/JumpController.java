@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 此控制器主要用于简单的页面跳转
+ * 此控制器主要功能是用于简单的页面跳转
  */
 @Controller
 public class JumpController {

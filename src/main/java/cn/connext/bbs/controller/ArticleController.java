@@ -41,7 +41,7 @@ public class ArticleController {
     User_roleService user_roleService;
 
     /**
-     * 跳转到消息详情页面
+     * 跳转到消息的详情页面
      * @param id
      * @param model
      * @return

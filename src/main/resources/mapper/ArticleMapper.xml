@@ -49,6 +49,7 @@
     <update id="zhiding">
         update article set shunxv=unix_timestamp(NOW()) where id=#{id}
     </update>
+    <---一个名为jiajing的更新数据的操作-------->
     <update id="jiajing">
         update article set isjiajing='是' where id=#{id}
     </update>
